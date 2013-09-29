@@ -1,0 +1,11 @@
+#!/bin/sh
+echo "Removing all compiled files"
+rm *.beam
+
+echo "Removing dump files"
+rm *.dump
+
+echo "Compiling erlGP_compile.erl"
+erlc erlGP_compile.erl
+
+echo "All compiled file cleaned, compile using erlGP_compile:compile()"

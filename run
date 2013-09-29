@@ -1,0 +1,2 @@
+erl -mnesia dir '"./mnesia"'
+
